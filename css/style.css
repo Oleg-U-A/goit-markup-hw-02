@@ -1,0 +1,285 @@
+/**************** Дополнительные класы */
+body {
+    font-family: "Roboto", "Verdana", sans-serif;
+    background-color: #ffffff;
+}
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+/****************--Шапка (Header)-- */
+
+.main-header {      
+        background: #FFFFFF;
+}
+/**********logo *****************/
+
+.logo-link {
+    font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;        
+        letter-spacing: 0.03em;
+    
+        color: #2196F3;
+}
+
+.logo-color {
+color: #000000;
+}
+/************************NAVIGATION */
+
+.menu-item {
+    font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    
+        color: #212121;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #2196F3;   
+}
+.menu-link {
+    color: #212121;
+}
+
+/* *************HEADER-CONTACTS */
+.header-mail {
+    font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+
+        color: #757575;
+}
+
+.header-tel {
+    font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    
+        color: #757575;
+}
+.header-mail:hover,
+.header-mail:focus {
+    color: #2196F3;
+}
+.header-tel:hover,
+.header-tel:focus {
+    color: #2196F3;
+}
+
+/* *********< !--Основная информация на странице (Hero)--> */
+
+.main-filling{
+    background: #E5E5E5;
+}
+/* ******< !--Секция №1 (Section #1)--> */
+.hero-text {
+    font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;        
+    
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+        background: #2F303A;
+}
+.hero-button {
+    font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87x;       
+    
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+    
+        color: #FFFFFF;
+        cursor: pointer;
+}
+.hero-button:focus,
+.hero-button:hover {
+  background-color: #2196F3;
+     
+}
+
+/*************************< !--Секция №2 (Section #2)-->*/
+
+.principles {
+    background: #E5E5E5;
+}
+.subtitles {
+ font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+.subtitles-text {
+ font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+
+/* ************< !--Секция №3 (Section #3)--> */
+.about-work {
+    background: #E5E5E5 ;
+}
+.titles {
+    font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+
+
+/**********< !--Секция №4 (Section #4) --> */
+.team {
+    background: #F5F4FA;
+}
+.background {
+    background: #FFFFFF;
+}
+.name {
+    font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+            
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+.profession {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18;       
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+}
+
+
+/*********************< !--Подвал (Footer)--> */
+.footer {
+    background: #2F303A;
+}
+/* *****************LOGO */
+.footer-logo-color {
+    color: #FFFFFF;
+}
+
+.footer-nav {
+font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+        
+    color: #757575;
+}
+.footer-nav:hover,
+.footer-nav:focus {
+    color: #FFFFFF;
+}
+
+
+/*****************************************************
+****************** PORTFOLIO *************************/
+
+.color {
+    background: #E5E5E5;
+}
+/* *********************HERO BUTTONS */
+.hero-buttons {
+    font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;        
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+
+}
+.hero-buttons:focus,
+.hero-buttons:hover {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+
+/* **************************MAIN CONTENT****** */
+.page-content {
+ font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    
+    letter-spacing: 0.06em;
+
+    color: #212121;
+    background: #FFFFFF;
+    
+}
+.mini-titles {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        /* identical to box height, or 188% */
+    
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+        background: #FFFFFF;
+}
