@@ -224,7 +224,7 @@ font-family: 'Roboto';
         
     color: #757575;
 }
-.footer-nav:hover,
+.footer-nav:hover, 
 .footer-nav:focus {
     color: #FFFFFF;
 }
