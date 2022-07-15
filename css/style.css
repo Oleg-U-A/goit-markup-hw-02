@@ -1,7 +1,13 @@
 /**************** Дополнительные класы */
+:root {
+
+}
+
 body {
     font-family: "Roboto", "Verdana", sans-serif;
     background-color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 .list {
     list-style: none;
@@ -11,12 +17,22 @@ body {
     text-decoration: none;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
 
-/****************--Шапка (Header)-- */
-
-.main-header {      
-        background: #FFFFFF;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
+
+
+
 /**********logo *****************/
 
 .logo-link {
@@ -48,7 +64,7 @@ color: #000000;
 
 .menu-link:hover,
 .menu-link:focus {
-    color: #2196F3;   
+    color: #2196F3;
 }
 .menu-link {
     color: #212121;
@@ -119,10 +135,11 @@ color: #000000;
     
         color: #FFFFFF;
         cursor: pointer;
+        background-color: #2196F3
 }
-.hero-button:focus,
-.hero-button:hover {
-  background-color: #2196F3;
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188CE8;
      
 }
 
@@ -153,6 +170,7 @@ color: #000000;
 
     color: #757575;
 }
+
 
 
 /* ************< !--Секция №3 (Section #3)--> */
