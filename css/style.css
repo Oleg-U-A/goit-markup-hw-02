@@ -218,6 +218,7 @@ a.current {
         letter-spacing: 0.03em;
     
         color: var(--body-secondary-color);
+        
 }
 .profession {
     font-family: 'Roboto';
@@ -230,6 +231,10 @@ a.current {
         letter-spacing: 0.03em;
     
         color: var(--main-text-color);
+        
+}
+.team {
+    background: #F5F4FA;
 }
 
 
@@ -286,7 +291,7 @@ font-family: 'Roboto';
         cursor: pointer;
     
         color: var(--secondary-text-color);
-        
+        background: #F5F4FA;
 }
 .hero-buttons:focus,
 .hero-buttons:hover {
